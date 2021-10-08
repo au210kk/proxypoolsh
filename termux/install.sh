@@ -1,5 +1,5 @@
 pkg i golang -y
-go get -u -v github.com/Sansui233/proxypool
+go get -u -v github.com/au210kk/426proxypool
 proxypool=$(ls ~/go/pkg/mod/github.com/'!sansui233')
 chmod -R 777 ~/go/pkg/mod/github.com/'!sansui233'
 cp -r ~/go/pkg/mod/github.com/'!sansui233'/$proxypool ~/proxypool
